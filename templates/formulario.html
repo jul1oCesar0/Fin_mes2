@@ -43,7 +43,10 @@
         <form id="formulario" onsubmit="clasificarInsecto(event)" class="bg-white p-6 rounded shadow-md max-w-lg mx-auto">
             <div class="mb-4">
                 <label for="smoker" class="block text-gray-700">smoker:</label>
-                <input type="text" id="smoker" name="smoker" class="mt-1 p-2 w-full border rounded" required>
+                <select id="smoker" name="smoker" class="mt-1 p-2 w-full border rounded" required>
+                    <option value="0">No</option>
+                    <option value="1">Sí</option>
+                </select>
             </div>
             <div class="mb-4">
                 <label for="bmi" class="block text-gray-700">bmi:</label>
@@ -59,7 +62,43 @@
             </div>
             <div class="mb-4">
                 <label for="job_title" class="block text-gray-700">job_title:</label>
-                <input type="text" id="job_title" name="job_title" class="mt-1 p-2 w-full border rounded" required>
+                <select id="job_title" name="job_title" class="mt-1 p-2 w-full border rounded" required>
+                    <option value="2.0">Actor</option>
+                    <option value="16.0">Ingeniero</option>
+                    <option value="0.0">Academician</option>
+                    <option value="10">Chef</option>
+                    <option value="22">HomeMakers</option>
+                    <option value="12">Dancer</option>
+                    <option value="32">Singer</option>
+                    <option value="13">DataScientis</option>
+                    <option value="30">Police</option>
+                    <option value="33">Studen</option>
+                    <option value="15">Doctor</option>
+                    <option value="28">Manager</option>
+                    <option value="29">Photographer</option>
+                    <option value="5">Beautician</option>
+                    <option value="8">CA</option>
+                    <option value="6">Blogger</option>
+                    <option value="9">CEO</option>
+                    <option value="26">Labourer</option>
+                    <option value="1">Accountant</option>
+                    <option value="19">FilmDirector</option>
+                    <option value="34">Technician</option>
+                    <option value="18">FashionDesigner</option>
+                    <option value="4">Architect</option>
+                    <option value="23">HouseKeeper</option>
+                    <option value="20">FilmMaker</option>
+                    <option value="7">Buisnessman</option>
+                    <option value="31">Politician</option>
+                    <option value="14">DefencePersonnels</option>
+                    <option value="3">Analyst</option>
+                    <option value="11">Clerks</option>
+                    <option value="24">ITProfessional</option>
+                    <option value="17">Farmer</option>
+                    <option value="25">Journalist</option>
+                    <option value="27">Lawyer</option>
+                    <option value="21">GovEmployee</option>
+                </select>
             </div>
             <div class="text-center">
                 <input type="submit" value="Enviar" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
