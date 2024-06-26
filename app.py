@@ -9,7 +9,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 # Cargar el modelo entrenado
-model = joblib.load('mod23.pkl')
+model = joblib.load('mosd.pkl')
 app.logger.debug('Modelo cargado correctamente.')
 
 @app.route('/')
